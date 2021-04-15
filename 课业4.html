@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{background-image:url(b.jpg);
+                 background-size:cover;
+                 background-repeat:no-repeat;
+                 background-attachment: fixed;}
+            th{color:white;text-align:center;
+               line-height: 50px;padding: 0px 10px;
+               display: inline-block;}
+            .dorp{display: inline-block;}
+            .dorp_con{display: none;
+                      position: absolute;
+                      background-color:rgba(87, 87, 87, 0.767);
+                      padding: 6px 8px;
+                      padding-top: 0px;}
+            .dorp:hover .dorp_con{display:block;}
+            p{text-align: left;line-height: 15px;margin: 5px;}
+            .search{margin:auto;margin-top: 200px;}
+         * {margin: 0;
+            padding: 0}
+.container {
+    height: 400px;
+    width: 700px;
+    margin:  auto  auto;}
+.parent {position: relative;}
+.search{
+    width: 500px;
+    height: 40px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 20px;
+    position: absolute;}
+button{    
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    position:fixed;
+    margin: 220px 236px;}
+    </style>
+        <title>SCP杭电分会</title>
+    </head>
+
+    <body>
+        <div style="float:left;" class="title">
+            <img src="scp.png" style="float: left;width: 21%;padding-top: 10px;padding-left: 10px;">
+            <table>
+                <tr>
+                    <th class="t1">首页</th>
+                    <th class="t2"> 
+                        <div class="dorp">
+                            <span>档案</span>
+                            <div class="dorp_con">
+                               <p>SCP-001</p>
+                               <p>SCP-002</p>
+                            </div>    
+                    </th>
+                    <th class="t3">
+                        <div class="dorp">
+                            <span>报告</span>
+                            <div class="dorp_con">
+                               <p>基础研究</p>
+                               <p>衍生物研究</p>
+                               <p>设备研究</p>
+                               <p>实用性研究</p>
+                    </th>
+                    <th class="t4">
+                        <div class="dorp">
+                            <span>研究所</span>
+                            <div class="dorp_con">
+                               <p>site-1</p>
+                               <p>site-2</p>
+                               <p>site-3</p>
+                   </th>
+                </tr>
+            </table>
+        </div>
+        <div style="float:right;">
+            <p style="float: right;color: white;padding: 10px;"><b>登录 | 注册</b></p>
+        </div>
+<pre>
+        <div class="container">
+            <form action="" class="parent">
+                <input type="text" class="search" placeholder="请输入...">
+            </form>
+            <button>检索</button>
+        </div>
+             
+    </body>
+    </pre>
+    </html>
